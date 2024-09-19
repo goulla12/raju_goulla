@@ -1,0 +1,100 @@
+@media(min-width:300px){
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #212121;
+}
+.card1{
+    background-color: aliceblue;
+    height: 55px;
+    width: 95%;
+    color: palevioletred;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+nav img, h1{
+    background: none;
+    margin: 5px;
+}
+.section{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2, p1{
+    margin: 5px;
+}
+.section2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: space-evenly;
+}
+.card2{
+    border-radius: 25px;
+    
+    background-color: palegreen;
+    width: 30%;
+    height: 200px;
+    padding: 40px;
+    margin: 40px;
+
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    margin: 15px;
+}
+.equipment{
+    margin-left: 10px;
+}
+.card3{
+    background-color: white;
+    height: 170px;
+    width: 170px;
+    margin: 40px;
+    border-radius: 20px;
+
+
+}
+.equipments{
+    height: 300px;
+    width: 650px;
+    background-color: aliceblue;
+    margin-right: 300px;
+    text-align: center;
+}
+
+section3{
+    display: flex;
+}
+.membership{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+h3{
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+
+}
+h4{
+    color: aliceblue;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+}
+
